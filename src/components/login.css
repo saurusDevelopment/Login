@@ -1,0 +1,54 @@
+.login {
+  padding: 20px;
+  padding-top: 15%;
+  padding-bottom: 20%;
+  border-radius: 12px 0px 0px 12px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .login {
+    border-radius: 0px 0px 12px 12px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+}
+
+.login .title strong {
+  font-size: 25px;
+  text-align: center;
+}
+
+.login .icons {
+  padding-left: 37%;
+  padding-right: 37%;
+}
+
+.login .icons .icon {
+  padding: 10px;
+  font-size: 13px;
+}
+
+.login .subtitle {
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.login form {
+  padding-top: 10px;
+}
+
+.login form .form-buttons {
+  padding-top: 10px;
+}
+
+.login form .btn-login {
+  color: #ffffff;
+  background-color: #fd4b2c;
+  text-transform: uppercase;
+  border-color: #fd4b2c;
+}
+
+.login form .helper-password {
+  padding-bottom: 10px;
+}
